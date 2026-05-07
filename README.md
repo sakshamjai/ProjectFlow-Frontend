@@ -1,5 +1,5 @@
 # WorkPilot — Project Management App
-
+# Admin and Member Dummy Credentials Admin: admin@gmail.com password: admin123 Member: saksham@gmail.com password: 123456
 A full-stack **Project Management** application with role-based access control. Admins can manage projects, tasks, and team members; members can view and update their assigned tasks.
 
 > **Deployment Note:** The Frontend and Backend are deployed **independently** and communicate over HTTP via a REST API.
@@ -72,10 +72,10 @@ Frontend/
 Create a `.env` file inside the `Frontend/` directory:
 
 ```env
-VITE_API_BASE_URL=https://your-backend-url.com/api
+VITE_API_BASE_URL=https://projectflow-backend-production.up.railway.app//api
 ```
 
-> In development this should point to `http://localhost:5000/api`.
+> In development this should point to `http://localhost:8080/api`.
 > On production, replace it with your deployed backend URL.
 
 ### Local Development
